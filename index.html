@@ -18,12 +18,12 @@
         <script src="js/bootstrap.min.js"></script>
 
         <div id="navbar" class="container">
-            <nav class="navbar w-25 fixed-bottom navbar-expand-xs navbar-dark bg-clear">
+            <nav class="navbar fixed-bottom navbar-expand-xs navbar-dark bg-clear" style="width: max-content">
                 <button class="navbar-toggler border border-grayish" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse bg-dark border rounded my-2 text-center float-right" id="navbarToggler">
-                    <ul class="navbar-nav mr-auto mt-2">
+                    <ul class="navbar-nav mr-auto mt-2 p-2">
                         <li class="nav-item">
                             <a class="nav-link nav-justified" href="#Who_am">Who Am I</a>
                         </li>
@@ -78,7 +78,7 @@
             <div class="container align-content-center text-center">
                 <h1 class="display-3 text-white">What I've Done</h1>
                 <div class="row mt-5">
-                    <div class="card col-sm-12 col-md mx-3 my-sm-3 my-md-0 bg-opaque">
+                    <div class="card col-sm-12 col-md-5 mx-auto my-sm-3 my-md-0 bg-opaque">
                         <img class="rounded-circle m-auto" style="height: 12.5rem" src="https://3.imimg.com/data3/JR/SN/MY-17025353/python-programming-scripting-automation-django-500x500.png">
                         <div class="card-body">
                             <ul class="list-group">
@@ -91,12 +91,24 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="card col-sm-12 col-md mx-3 my-sm-3 my-md-0 bg-opaque">
+                    <div class="card col-sm-12 col-md-5 mx-auto my-sm-3 my-md-0 bg-opaque">
                         <img class="m-auto" style="height: 12.5rem" src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png">
                         <div class="card-body">
                             <ul class="list-group">
                                 <li class="list-group-item bg-grayish"><h3 class="lead m-auto">C++ Projects</h3></li>
                                 <a href="https://github.com/DomLankutis/Visual-Sort" class="list-group-item list-group-item-action">Sorting Algorithms Visualised</a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card col-sm-12 col-md-11 mx-auto my-sm-3 my-md-2 bg-opaque">
+                        <img class="m-auto" style="height: 12.5rem" src="https://pluralsight.imgix.net/paths/path-icons/nodejs-601628d09d.png">
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item bg-grayish"><h3 class="lead m-auto">Javascript Projects</h3></li>
+                                <span class="list-group-item list-group-item-action">Particle Generator
+                                   <input class="btn btn-primary" type="button" onclick="location.href='https://domlankutis.github.io/javascript-particle-generator/';" value="Live"/>
+                                </span>
+                            
                             </ul>
                         </div>
                     </div>
